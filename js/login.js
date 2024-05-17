@@ -12,7 +12,7 @@ document.forms[0].addEventListener("submit", (e) => {
     password: e.target[1].value,
   };
 
-  fetch(`http://localhost:3000/users?email=${data.email}`, {
+  fetch(`https://bidbay-1-sbac.onrender.com/users?email=${data.email}`, {
     method: "get",
     headers: {
       "Content-Type": "application/json",
