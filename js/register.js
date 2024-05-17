@@ -43,11 +43,11 @@ document.forms[0].addEventListener("submit", (e) => {
               "Content-Type": "application/json",
             },
             body: JSON.stringify({
-              fullname,
-              email,
-              mobile,
-              password,
-              amount,
+              fullname:credentials.fullname,
+              email:credentials.email,
+              mobile:credentials.mobile,
+              password:credentials.password,
+              amount:credentials.amount,
             }),
           });
           window.location.assign("./login.html");
