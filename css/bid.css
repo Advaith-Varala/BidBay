@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  overflow-x: none;
+  
 }
 
 body {
@@ -10,8 +10,10 @@ body {
   background-size: cover;
   background-position-y: center;
   height: 100vh;
+  width: 100%;
   color: white;
   font-family: sans-serif;
+  overflow: hidden;
 }
 :root {
   --shadow-color: #2e60d4;
@@ -215,3 +217,5 @@ button:hover {
       0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
   }
 }
+
+

@@ -1,5 +1,5 @@
 var userId = window.localStorage.getItem("userId");
-
+document.title="BidBay"
 var bidData = "";
 
 var loggedUser = {};
